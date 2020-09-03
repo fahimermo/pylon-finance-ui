@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #444444;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20% !important;
+}
+
+.block:hover {
+  -webkit-box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1), inset 0 0 40px rgba(0, 102, 204, 0.5), inset 0 0 160px rgba(0, 102, 204, 0.3);
+          box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1), inset 0 0 40px rgba(0, 102, 204, 0.5), inset 0 0 160px rgba(0, 102, 204, 0.3);
+  bottom: 0;
+  -webkit-transition: -webkit-box-shadow 1.5s;
+  transition: -webkit-box-shadow 1.5s;
+  transition: box-shadow 1.5s;
+  transition: box-shadow 1.5s, -webkit-box-shadow 1.5s;
+  z-index: 1;
+  color: white;
+}
+
+.block img {
+  width: 100px;
+}
+
+#pylon:hover {
+  background-color: #5b3df2;
+}
+
+#solarite:hover {
+  background-color: #f24981;
+}
+
+#kassia1:hover {
+  background-color: #12b28a;
+}
+
+#kassia2:hover {
+  background-color: #ffbfe4;
+}
+
+#kassia3:hover {
+  background-color: #f28179;
+}
+
+#coming1:hover {
+  background-color: #8b79f2;
+}
+
+#coming2:hover {
+  background-color: #8b79f2;
+}
+
+#coming3:hover {
+  background-color: #8b79f2;
+}
+
+#coming4:hover {
+  background-color: #8b79f2;
+}
+
+#coming5:hover {
+  background-color: #8b79f2;
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+    width: 20%;
+    max-width: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
