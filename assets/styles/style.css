@@ -12,6 +12,10 @@ body {
   color: #444444;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .container {
   max-width: 100%;
   padding: 0;
@@ -25,14 +29,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 20% !important;
+  width: 11.11% !important;
 }
 
 .block:hover {
@@ -47,8 +55,26 @@ body {
   color: white;
 }
 
+.block:hover .description {
+  display: inline-block;
+}
+
 .block img {
-  width: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.block p {
+  text-align: center;
+}
+
+.block .title {
+  font-size: 18px;
+}
+
+.block .description {
+  display: none;
+  padding: 0 5px;
 }
 
 #pylon:hover {
@@ -56,7 +82,7 @@ body {
 }
 
 #solarite:hover {
-  background-color: #f24981;
+  background-color: #f28179;
 }
 
 #kassia1:hover {
@@ -68,7 +94,7 @@ body {
 }
 
 #kassia3:hover {
-  background-color: #f28179;
+  background-color: #f24981;
 }
 
 #coming1:hover {
@@ -93,8 +119,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .block {
-    width: 20%;
-    max-width: 20%;
+    width: 11.11%;
+    max-width: 11.11%;
   }
 }
 /*# sourceMappingURL=style.css.map */
