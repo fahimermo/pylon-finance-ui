@@ -175,4 +175,20 @@ a:hover {
 .slick-slide a {
   outline: none;
 }
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: url(../img/sexy-pylon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 /*# sourceMappingURL=style.css.map */
