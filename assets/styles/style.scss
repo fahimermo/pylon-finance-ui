@@ -92,7 +92,8 @@ a:hover {
 }
 
 .overlay {
-  background-color: rgba(21, 25, 29, 0.3);
+  // background-color: rgba(25, 23, 34, 0.5);
+  // background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(25, 23, 34, 0.5), rgba(0, 0, 0, .8));
 }
 
 #pylon {
@@ -102,54 +103,72 @@ a:hover {
 }
 
 #solarite {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(230, 162, 99, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-5;
   }
 }
 
 #kassia1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(77, 131, 106, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-3;
   }
 }
 
 #kassia2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(160, 95, 168, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-4;
   }
 }
 
 #kassia3 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(160, 90, 94, 0.5), rgba(0, 0, 0, 0.8));
+
   &:hover {
     background-color: $theme-2;
   }
 }
 
 #coming1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(117, 116, 124, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-6;
   }
 }
 
 #coming2 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(74, 68, 100, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-6;
   }
 }
 
 #coming3 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(136, 131, 155, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-6;
   }
 }
 
 #coming4 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(77, 76, 83, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-6;
   }
 }
 
 #coming5 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(133, 119, 196, 0.5), rgba(0, 0, 0, .8));
+
   &:hover {
     background-color: $theme-6;
   }
@@ -161,6 +180,7 @@ a:hover {
 }
 
 .slick-slide {
+
   &:focus,
   a {
     outline: none;

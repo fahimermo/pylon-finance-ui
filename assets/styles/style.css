@@ -65,44 +65,85 @@ a:hover {
   padding: 0 10px;
 }
 
-.overlay {
-  background-color: rgba(21, 25, 29, 0.3);
-}
-
 #pylon:hover {
   background-color: #5b3df2;
+}
+
+#solarite {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(230, 162, 99, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(230, 162, 99, 0.5), rgba(0, 0, 0, 0.8));
 }
 
 #solarite:hover {
   background-color: #f28179;
 }
 
+#kassia1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(77, 131, 106, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 131, 106, 0.5), rgba(0, 0, 0, 0.8));
+}
+
 #kassia1:hover {
   background-color: #12b28a;
+}
+
+#kassia2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(160, 95, 168, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(160, 95, 168, 0.5), rgba(0, 0, 0, 0.8));
 }
 
 #kassia2:hover {
   background-color: #ffbfe4;
 }
 
+#kassia3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(160, 90, 94, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(160, 90, 94, 0.5), rgba(0, 0, 0, 0.8));
+}
+
 #kassia3:hover {
   background-color: #f24981;
+}
+
+#coming1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(117, 116, 124, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(117, 116, 124, 0.5), rgba(0, 0, 0, 0.8));
 }
 
 #coming1:hover {
   background-color: #8b79f2;
 }
 
+#coming2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(74, 68, 100, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(74, 68, 100, 0.5), rgba(0, 0, 0, 0.8));
+}
+
 #coming2:hover {
   background-color: #8b79f2;
+}
+
+#coming3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(136, 131, 155, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(136, 131, 155, 0.5), rgba(0, 0, 0, 0.8));
 }
 
 #coming3:hover {
   background-color: #8b79f2;
 }
 
+#coming4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(77, 76, 83, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 76, 83, 0.5), rgba(0, 0, 0, 0.8));
+}
+
 #coming4:hover {
   background-color: #8b79f2;
+}
+
+#coming5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(133, 119, 196, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(133, 119, 196, 0.5), rgba(0, 0, 0, 0.8));
 }
 
 #coming5:hover {
