@@ -37,34 +37,24 @@ $theme-6-light-bg: #f2f4ff;
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-*,
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: "Josefin Sans", sans-serif;
   color: #444444;
+  padding: 0;
+  margin: 0;
 }
 
+a,
 a:hover {
   text-decoration: none;
-}
-
-.container {
-  max-width: 100%;
-  padding: 0;
-}
-
-.col {
-  padding: 0;
+  color: black;
 }
 
 .block {
   display: flex;
   flex-direction: column;
-  // height: 100vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 
@@ -158,5 +148,17 @@ a:hover {
 #coming5 {
   &:hover {
     background-color: $theme-6;
+  }
+}
+
+.slick-slide div {
+  outline: none !important;
+}
+
+.slick-slide {
+
+  &:focus,
+  a {
+    outline: none;
   }
 }

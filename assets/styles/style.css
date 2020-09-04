@@ -1,28 +1,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-*,
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Josefin Sans", sans-serif;
   color: #444444;
+  padding: 0;
+  margin: 0;
 }
 
+a,
 a:hover {
   text-decoration: none;
-}
-
-.container {
-  max-width: 100%;
-  padding: 0;
-}
-
-.col {
-  padding: 0;
+  color: black;
 }
 
 .block {
@@ -40,7 +29,6 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 11.11% !important;
 }
 
 .block:hover {
@@ -117,10 +105,12 @@ a:hover {
   background-color: #8b79f2;
 }
 
-@media screen and (min-width: 768px) {
-  .block {
-    width: 11.11%;
-    max-width: 11.11%;
-  }
+.slick-slide div {
+  outline: none !important;
+}
+
+.slick-slide:focus,
+.slick-slide a {
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
