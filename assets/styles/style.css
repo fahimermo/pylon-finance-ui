@@ -65,6 +65,23 @@ a:hover {
   padding: 0 10px;
 }
 
+.overlay {
+  position: relative;
+}
+
+.overlay:hover #countdown {
+  top: 45%;
+}
+
+#countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
 #pylon:hover {
   background-color: #5b3df2;
 }

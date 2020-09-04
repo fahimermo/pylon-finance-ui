@@ -92,8 +92,23 @@ a:hover {
 }
 
 .overlay {
+  position: relative;
+
+  &:hover {
+    #countdown {
+      top: 45%;
+    }
+  }
+
   // background-color: rgba(25, 23, 34, 0.5);
   // background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(25, 23, 34, 0.5), rgba(0, 0, 0, .8));
+}
+
+#countdown {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 20%;
 }
 
 #pylon {
