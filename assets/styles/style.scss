@@ -87,8 +87,12 @@ a:hover {
 
   .description {
     display: none;
-    padding: 0 5px;
+    padding: 0 10px;
   }
+}
+
+.overlay {
+  background-color: rgba(21, 25, 29, 0.3);
 }
 
 #pylon {
@@ -151,12 +155,12 @@ a:hover {
   }
 }
 
+// slick slider styles
 .slick-slide div {
   outline: none !important;
 }
 
 .slick-slide {
-
   &:focus,
   a {
     outline: none;

@@ -62,7 +62,11 @@ a:hover {
 
 .block .description {
   display: none;
-  padding: 0 5px;
+  padding: 0 10px;
+}
+
+.overlay {
+  background-color: rgba(21, 25, 29, 0.3);
 }
 
 #pylon:hover {
