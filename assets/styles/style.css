@@ -29,16 +29,12 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-right: solid 1px white;
+  color: white;
 }
 
 .block:hover {
-  -webkit-box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1), inset 0 0 40px rgba(0, 102, 204, 0.5), inset 0 0 160px rgba(0, 102, 204, 0.3);
-          box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1), inset 0 0 40px rgba(0, 102, 204, 0.5), inset 0 0 160px rgba(0, 102, 204, 0.3);
   bottom: 0;
-  -webkit-transition: -webkit-box-shadow 1.5s;
-  transition: -webkit-box-shadow 1.5s;
-  transition: box-shadow 1.5s;
-  transition: box-shadow 1.5s, -webkit-box-shadow 1.5s;
   z-index: 1;
   color: white;
 }
@@ -69,106 +65,142 @@ a:hover {
   position: relative;
 }
 
-.overlay:hover #countdown {
-  top: 45%;
-}
-
 #countdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 20%;
+}
+
+#pylon {
+  color: #5b3df2;
+}
+
+#pylon img {
+  width: 200px;
+  height: 140px;
 }
 
 #pylon:hover {
+  color: white;
   background-color: #5b3df2;
 }
 
 #solarite {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(230, 162, 99, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(230, 162, 99, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #solarite:hover {
-  background-color: #f28179;
+  color: white;
+  background-image: none;
+  background-color: #f79250;
 }
 
 #kassia1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(77, 131, 106, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 131, 106, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #kassia1:hover {
-  background-color: #12b28a;
+  color: white;
+  background-image: none;
+  background-color: #94953d;
 }
 
 #kassia2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(160, 95, 168, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(160, 95, 168, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #kassia2:hover {
-  background-color: #ffbfe4;
+  color: white;
+  background-image: none;
+  background-color: #6a4222;
 }
 
 #kassia3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(160, 90, 94, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(160, 90, 94, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #kassia3:hover {
-  background-color: #f24981;
+  color: white;
+  background-image: none;
+  background-color: #29534f;
+}
+
+#vault {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+#vault:hover {
+  color: white;
+  background-image: none;
+  background-color: #384260;
 }
 
 #coming1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(117, 116, 124, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(117, 116, 124, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #coming1:hover {
+  color: white;
+  background-image: none;
   background-color: #8b79f2;
 }
 
 #coming2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(74, 68, 100, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(74, 68, 100, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #coming2:hover {
+  color: white;
+  background-image: none;
   background-color: #8b79f2;
 }
 
 #coming3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(136, 131, 155, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(136, 131, 155, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #coming3:hover {
+  color: white;
+  background-image: none;
   background-color: #8b79f2;
 }
 
 #coming4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(77, 76, 83, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(77, 76, 83, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #coming4:hover {
+  color: white;
+  background-image: none;
   background-color: #8b79f2;
 }
 
 #coming5 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(133, 119, 196, 0.5)), to(rgba(0, 0, 0, 0.8)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(133, 119, 196, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 #coming5:hover {
+  color: white;
+  background-image: none;
   background-color: #8b79f2;
 }
 
 .slick-slide div {
   outline: none !important;
+}
+
+.slick-slide {
+  width: 1% !important;
 }
 
 .slick-slide:focus,
@@ -187,7 +219,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: url(../img/sexy-pylon.png);
+  background: url(../img/sexy-pylon-2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

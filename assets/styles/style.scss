@@ -5,25 +5,25 @@ $theme-1-light: #6854ff;
 $theme-1-light-bg: #ecf0f3;
 
 // Theme 2: Funky
-$theme-2: #f24981;
+$theme-2: #29534f;
 $theme-2-bg: #132b4c;
 $theme-2-light: #f22469;
 $theme-2-light-bg: #e0ecff;
 
 // Theme 3: Techie
-$theme-3: #12b28a;
+$theme-3: #94953d;
 $theme-3-bg: #272e34;
 $theme-3-light: #4cd8b5;
 $theme-3-light-bg: #e1eaf2;
 
 // Theme 4: Soft
-$theme-4: #ffbfe4;
+$theme-4: #6a4222;
 $theme-4-bg: #2d3459;
 $theme-4-light: #ffa6da;
 $theme-4-light-bg: #edf0ff;
 
 // Theme 5: Elegant
-$theme-5: #f28179;
+$theme-5: #f79250;
 $theme-5-bg: #262d4d;
 $theme-5-light: #f26b61;
 $theme-5-light-bg: #f2f4ff;
@@ -33,6 +33,12 @@ $theme-6: #8b79f2;
 $theme-6-bg: #262d4d;
 $theme-6-light: #8d61f2;
 $theme-6-light-bg: #f2f4ff;
+
+// Theme 7: Vault
+$theme-7: #384260;
+$theme-7-bg: #262d4d;
+$theme-7-light: #8d61f2;
+$theme-7-light-bg: #f2f4ff;
 
 /*--------------------------------------------------------------
 # General
@@ -58,12 +64,15 @@ a:hover {
   justify-content: center;
   align-items: center;
 
+  border-right: solid 1px white;
+  color: white;
+
   &:hover {
-    box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1),
-      inset 0 0 40px rgba(0, 102, 204, 0.5),
-      inset 0 0 160px rgba(0, 102, 204, 0.3);
+    // box-shadow: inset 0 0 0 2px rgba(153, 204, 255, 0.1),
+    //   inset 0 0 40px rgba(0, 102, 204, 0.5),
+    //   inset 0 0 160px rgba(0, 102, 204, 0.3);
     bottom: 0;
-    transition: box-shadow 1.5s;
+    // transition: box-shadow 1.5s;
     z-index: 1;
     color: white;
 
@@ -93,98 +102,124 @@ a:hover {
 
 .overlay {
   position: relative;
-
-  &:hover {
-    #countdown {
-      top: 45%;
-    }
-  }
-
   // background-color: rgba(25, 23, 34, 0.5);
   // background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(25, 23, 34, 0.5), rgba(0, 0, 0, .8));
 }
 
 #countdown {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 20%;
 }
 
 #pylon {
+  img {
+    width: 200px;
+    height: 140px;
+  }
+
+  color: $theme-1;
+
   &:hover {
+    color: white;
     background-color: $theme-1;
   }
 }
 
 #solarite {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(230, 162, 99, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-5;
   }
 }
 
 #kassia1 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(77, 131, 106, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-3;
   }
 }
 
 #kassia2 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(160, 95, 168, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-4;
   }
 }
 
 #kassia3 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(160, 90, 94, 0.5), rgba(0, 0, 0, 0.8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-2;
   }
 }
 
-#coming1 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(117, 116, 124, 0.5), rgba(0, 0, 0, .8));
+#vault {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8));
 
   &:hover {
+    color: white;
+    background-image: none;
+    background-color: $theme-7;
+  }
+}
+
+#coming1 {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+
+  &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-6;
   }
 }
 
 #coming2 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(74, 68, 100, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-6;
   }
 }
 
 #coming3 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(136, 131, 155, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-6;
   }
 }
 
 #coming4 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(77, 76, 83, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-6;
   }
 }
 
 #coming5 {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(133, 119, 196, 0.5), rgba(0, 0, 0, .8));
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
 
   &:hover {
+    color: white;
+    background-image: none;
     background-color: $theme-6;
   }
 }
@@ -195,6 +230,7 @@ a:hover {
 }
 
 .slick-slide {
+  width: 1% !important;
 
   &:focus,
   a {
@@ -213,7 +249,7 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: url(../img/sexy-pylon.png);
+  background: url(../img/sexy-pylon-2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

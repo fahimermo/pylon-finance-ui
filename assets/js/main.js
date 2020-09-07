@@ -15,7 +15,8 @@ $(document).on("ready", function () {
     dots: false,
     infinite: false,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
+    variableWidth: true,
   });
 
   $("#countdown").countdown({
