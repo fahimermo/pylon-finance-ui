@@ -238,6 +238,12 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 639px) {
+  .slick-slide {
+    width: 100% !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -251,7 +257,8 @@ a:hover {
   overflow: hidden;
   background: url(../img/sexy-pylon-2.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 // #preloader:before {

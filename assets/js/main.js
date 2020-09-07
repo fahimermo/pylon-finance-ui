@@ -9,15 +9,29 @@ $(window).on("load", function () {
 });
 
 $(document).on("ready", function () {
-  $(".regular").slick({
-    prevArrow: false,
-    nextArrow: false,
-    dots: false,
-    infinite: false,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    variableWidth: true,
-  });
+  console.log(window.screen.width);
+  if (window.screen.width < 640) {
+    $(".regular").slick({
+      prevArrow: false,
+      nextArrow: false,
+      dots: false,
+      infinite: false,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      // variableWidth: true,
+      vertical: true,
+    });
+  } else {
+    $(".regular").slick({
+      prevArrow: false,
+      nextArrow: false,
+      dots: false,
+      infinite: false,
+      slidesToShow: 5,
+      slidesToScroll: 2,
+      variableWidth: true,
+    });
+  }
 
   $("#countdown").countdown({
     date: "Sep 11 2020",
