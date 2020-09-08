@@ -134,6 +134,12 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
 
+#vault img {
+  width: 90px;
+  height: 90px;
+  margin: 30px;
+}
+
 #vault:hover {
   color: white;
   background-image: none;
