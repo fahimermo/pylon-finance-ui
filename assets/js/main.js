@@ -41,8 +41,8 @@ $(document).on("ready", function () {
   ) {
   } else {
     $(".regular").slick({
-      prevArrow: false,
-      nextArrow: false,
+      prevArrow: true,
+      nextArrow: true,
       dots: false,
       infinite: false,
       slidesToShow: 5,
@@ -52,7 +52,7 @@ $(document).on("ready", function () {
   }
 
   $("#countdown").countdown({
-    date: "Sep 11 2020",
+    date: "Sep 10 2020",
     render: function (data) {
       var el = $(this.el);
       el.empty()
